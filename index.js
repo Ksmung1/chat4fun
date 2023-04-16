@@ -2,13 +2,14 @@
 // So we don't have ridiculous errors.
 window.onload = function() {
   // Your web app's Firebase configuration
-  const firebaseConfig = {
-          apiKey: "AIzaSyCe6o51E8n0TXpQg0pH44pXgspLAwcUizQ",
-          authDomain: "chat4fun-39362.firebaseapp.com",
-          projectId: "chat4fun-39362",
-          storageBucket: "chat4fun-39362.appspot.com",
-          messagingSenderId: "753158356144",
-          appId: "1:753158356144:web:3a2f8703018f114c9b4f75"
+ // Your web app's Firebase configuration
+ const firebaseConfig = {
+          apiKey: "AIzaSyArzKXuRPs3j3SOkwoSI4if_-WzaKiS97w",
+          authDomain: "chat3fun.firebaseapp.com",
+          projectId: "chat3fun",
+          storageBucket: "chat3fun.appspot.com",
+          messagingSenderId: "648249575041",
+          appId: "1:648249575041:web:709fa37f89715443c0af80"
         };
       
         // Initialize Firebase
