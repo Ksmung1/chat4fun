@@ -43,7 +43,7 @@ window.onload = function() {
 
       var title = document.createElement('h1')
       title.setAttribute('id', 'title')
-      title.textContent = 'Chat 4 Fun'
+      title.textContent = 'Customer Service'
 
       title_inner_container.append(title)
       title_container.append(title_inner_container)
@@ -72,7 +72,7 @@ window.onload = function() {
       var join_input = document.createElement('input')
       join_input.setAttribute('id', 'join_input')
       join_input.setAttribute('maxlength', 15)
-      join_input.placeholder = 'Enter a name.'
+      join_input.placeholder = 'Name.'
       // Every time we type into the join_input
       join_input.onkeyup  = function(){
         // If the input we have is longer that 0 letters
@@ -268,7 +268,10 @@ window.onload = function() {
         var unordered = [] // unordered messages
         var ordered = [] // we're going to order these messages
 
-        for (var i, i = 0; i < messages.length; i++) {
+        for (var
+          
+          
+          i, i = 0; i < messages.length; i++) {
           // The guide is simply an array from 0 to the messages.length
           guide.push(i+1)
           // unordered is the [message, index_of_the_message]
